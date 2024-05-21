@@ -1,0 +1,163 @@
+.container{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(226, 193, 151);
+    margin: 20px auto;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+form{
+    padding: 20px;
+   
+    
+}
+.container h1{
+    padding-top: 40px;
+}
+form input{
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    
+}
+form label{
+    /* padding-top: 10px; */
+}
+.option{
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.quiz{
+    background-color: #007bff;
+    height: 400px;
+    border-radius: 15px;
+    width: 50%;
+    margin:20px auto;
+    padding: 5px 15px;
+}
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.question{
+    font-size: larger;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+.btn button{
+    border: 1px solid black;
+    color: black;
+}
+.btn button:hover{
+    color: white;
+
+}
+.note{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
+.note{
+    background-color: antiquewhite;
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px auto;
+    height: 200px;
+    border-radius: 20px ;
+    
+}
+.note .p{
+   
+    margin-top: 40px;
+    padding: 20px;
+}
+.note > div > button{
+    width: 20%;
+    padding: 10px;
+    background-color: black;
+
+}
+.note > div > button:hover{
+    padding: 15px;
+    background-color: black;
+    border: transparent;
+    color: white;
+}
+.end{
+    background-color: blanchedalmond;
+    width: 40%;
+    height: 250px;
+    margin: 30px auto;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.end > p{
+    padding: 10px;
+}
+
+.end > div > button{
+    padding: 20px;
+    background-color: azure;
+    color: black;
+    font-size: larger;
+}
+.end > div > button:hover{
+    color: green;
+}
+.feedback{
+    padding: 10px;
+    font-weight: 700;
+}
+@media screen and (max-width: 700px) {
+    .container{
+        width: 70%;
+        font-size: small;
+    }
+    .note{
+        width: 70%;
+        font-size: small;
+        padding: 4px auto;
+    }
+    .note > div > button{
+        width: 50%;
+    }
+    .quiz{
+        width: 90%;
+        font-size: small;
+        padding: 2px;
+        height: 500px;
+    }
+    .btn{
+        padding: 2px;
+    }
+    .end{
+        width: 70%;
+        font-size: smaller;
+    }
+    .end > div > button{
+        padding: 7px;
+    }
+
+
+    
+}
